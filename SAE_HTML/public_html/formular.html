@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formular</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSSMain.css"/>
+    </head>
+    <body>
+        <h1>Titel</h1>
+        <fieldset id="f1"><legend>Klassenfahrt</legend>
+            <form action="http://web.wara.de/~mer/formulartest.php">
+            <div>
+                <label for="vorschlag" class="Spalte1">Reiseziel ?</label>
+                <select name="vorschlag">
+                    <option value="1">Schluchsee</option>
+                    <option value="2">Bodensee</option>
+                    <option SELECTED value="3">Paris</option>
+                </select>
+            </div>
+            <div>
+                <!-- Labels und Radiobuttons -->
+                <label class="Spalte1">Beispiel Label</label>
+                
+                <input type="radio" id="rbOrgaJa" name="rb" value="1">
+                <label for="rbOrgJa">Ja</label>
+                <input type="radio" id="rbOrgaNein" name="rb" value="0">
+                <label for="rbOrgaNein">Nein</label>
+            </div>
+            <div>
+                <!-- TextArea -->
+                <textarea name="txt">BeispielText</textarea>
+            </div>
+            <div>
+                <!-- Buttons -->
+                <button type="submit">Submit</button>
+                <input type="reset" value="Löschen">
+            </div>
+            </form>
+        </fieldset>
+    </body>
+</html>

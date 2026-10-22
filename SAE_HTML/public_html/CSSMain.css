@@ -1,0 +1,57 @@
+/* HTML */
+body {
+    background: grey;
+    margin: 2vw, 10vh, 2vw, 10vh;
+    /*text-align: center;*/
+}
+
+html{
+    font-size: 14px;
+    font-family: Comic Sans MS;
+}
+
+p {
+    width: 50%;
+    margin-left: 25vw;
+    margin-right: 25vw; 
+    border: 2px solid brown;
+}
+
+h1 {
+    background-color: #ff3333;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Tables */ 
+table{
+        border: 1pt solid black;
+}
+td {
+    border: 1pt solid black;
+}
+/* Formulare */
+fieldset {
+    border-style: groove;
+    
+}
+label.Spalte1 {
+    width: 10em;
+    display: inline-block;
+}
+/* IDs */
+#f1 {
+    margin: 1em;
+}
+#f1 textArea {
+    font-family: serif;
+}
+
+#anfang {
+    background-color: black;
+    color: white;
+    margin: 2vh 10vw 4vh 15vw;
+}
+#myHeading1 {
+    
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aufgabe1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="pruefung.css"/>
+    </head>
+    <body>
+        <h1>Die IHK Prüfung</h1>
+        <table cellpadding="4">
+            <tr>
+                <td></td>
+                <td colspan="3">Teil A <br> Schriftliche Prüfung</td>
+                <td colspan="3">Teil B <br>Projektplanung</td>
+            </tr>
+            <tr>
+                <td>Ort</td>
+                <td colspan="3">Schule</td>
+                <td>Betrieb</td>
+                <td colspan="2">IHK</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>GA 1</td>
+                <td>GA 2</td>
+                <td>WK</td>
+                <td>Projektdokumentation</td>
+                <td>Projektpräsentation</td>
+                <td>Fachgespräch</td>
+            </tr>
+            <tr>
+                <td>Gewicht</td>
+                <td>20%</td>
+                <td>20%</td>
+                <td>10%</td>
+                <td>25%</td>
+                <td>12,5%</td>
+                <td>12,5%</td>
+            </tr>
+        </table>
+        <h3>Erläuterung</h3>
+        <ul>
+            <li>"GA" = Ganzheitliche Aufgabe = SAE ITS und BWL</li>
+            <li>GA 1 ist berufsspezifisch, GA 2 ist für alle IT-Berufe gleich</li>
+            <li>Das Projekt selbst wird nicht bewertet, nur die Dokumentation</li>
+        </ul>
+        <h3> Projektantrag</h3>
+        <form action="http://localhost:8084/test.php" method="GET">
+            <p><label>Name</label><input type="text" name="tfName"></p>
+            <p><label>Geburtsdatum</label><input type="date" name="date"></p>
+            <p><label>Klasse</label>
+                    <select name="selKlasse">
+                        <option>E3FS1T</option>
+                        <option>E3FS2T</option>
+                        <option>E3FS3T</option>
+                        <option>E3FS4T</option>
+                    </select>
+            </p>
+            <p><label>Projektbeschreibung</label><br><textarea name="tx1" cols="50" rows="8"></textarea></p>
+            <p><button type="submit">Anmelden</button></p>
+        </form>
+        <h3>Sonstiges</h3>
+        <p> &copy; by Julius Reichardt </p>
+        <a href="bezahlen.html">Nächste Seite</a>
+    </body>
+</html>

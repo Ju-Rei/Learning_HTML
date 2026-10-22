@@ -1,0 +1,30 @@
+
+* {
+    font-family: Ubuntu,Arial,sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid gray;
+    text-align: center;
+}
+tr:nth-child(2) td{
+    background: rgb(20,20,155);
+    color:white;
+    font-weight: bold;
+}
+
+
+label,input,select {
+    display: inline-block;
+    margin:0 0 0.5rem 0;       
+    height:1.5rem;
+    width:15rem;
+    box-sizing: border-box;     
+}
+
+textarea {
+    width:30rem;
+    box-sizing: border-box;
+}
