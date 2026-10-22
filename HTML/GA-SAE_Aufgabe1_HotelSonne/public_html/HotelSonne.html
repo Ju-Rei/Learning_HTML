@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Sonne</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <img src="hotel.jpg" alt="Logo"/>
+            <h2>Willkommen im Hotel</h2>
+            <h1>Sonnenschein</h1>
+            <h2>Preisberechnung</h2>
+            <form action="preisberechnung.jsp" method="POST" >
+                    <label for="ausstattung">Zimmerausstattung:</label>
+                    <select id="ausstattung" name="ausstattung">
+                        <option value="einfach">einfach</option>
+                        <option value="gehoben">gehoben</option>
+                    </select>
+                    <br/>
+                    <div>
+                    <fieldset>
+                        <legend>Saison:</legend>
+                        <input type="radio" id="Vorsaison" name="Saison" value="Vorsaison (Mai/Juni)">
+                            <label>Vorsaison (Mai/Juni)</label>
+                            <br>
+                        <input type="radio" id="Hauptsaison" name="Saison" value="Hauptsaison (Juli/August)">
+                            <label>Hauptsaison (Juli/August)</label>
+                            <br>
+                        <input type="radio" id="Nachsaison" name="Saison" value="Nachsaison (September)">
+                            <label>Nachsaison (September)</label>
+                            <br>
+                        <input type="radio" id="Nebensaison" name="Saison" value="Nebensaison (Oktober bis April)">
+                            <label>Nebensaison (Oktober bis April)</label>
+                    </fieldset>
+                    </div>
+                    <br>
+                        <label for="datum">Buchungstage</label>
+                        <input type="date" id="datum" name="datum">
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" value="Preis berechnen">
+                    <input type="reset" name="reset" value="Löschen">
+                    <br>
+            </form>
+            <a href="https://maps.openrouteservice.org" target="target">Anfahrt</a>
+    </body>
+</html>

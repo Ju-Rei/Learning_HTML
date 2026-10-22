@@ -1,0 +1,8 @@
+{
+    "name": "GA-SAE_Aufgabe1_HotelSonne",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "nesti",
+    "contributors": [],
+    "dependencies": {}
+}
